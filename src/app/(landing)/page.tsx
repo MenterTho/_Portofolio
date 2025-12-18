@@ -1,19 +1,36 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { Navbar } from "@/src/components/ui-navbar/navBar";
 import { StarBackground } from "@/src/components/ui/startBackground";
 import { ThemeToggle } from "@/src/components/ui/themeToggle";
-
+import { HeroSections } from "@/src/components/sections/heroSections"
+import {AboutSection} from "@/src/components/layout/aboutSection"
 export default function Home() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", isDarkMode);
+  }, [isDarkMode]);
+
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      {/* Theme Toggle */}
-      <ThemeToggle />
-
-      {/* Background Effects */}
-      <StarBackground/>
+      <StarBackground />
+      {/* ThemeToggle */}
+      <ThemeToggle
+        isDarkMode={isDarkMode}
+        onToggle={() => setIsDarkMode((p) => !p)}
+        className="fixed top-5 right-5 z-50 hidden md:block"
+      />
       {/* Navbar */}
-      <Navbar/>
-      {/* Main Content */}
-      {/* Footer */}
+      <Navbar
+        isDarkMode={isDarkMode}
+        toggleTheme={() => setIsDarkMode((p) => !p)}
+      />
+      <main>
+        <HeroSections />
+        <AboutSection/>
+      </main>
     </div>
   );
 }
