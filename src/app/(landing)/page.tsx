@@ -1,5 +1,6 @@
+import { Navbar } from "@/src/components/ui-navbar/navBar";
 import { StarBackground } from "@/src/components/ui/startBackground";
-import { ThemeToggle } from "@/src/components/ui/themToggle";
+import { ThemeToggle } from "@/src/components/ui/themeToggle";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       {/* Background Effects */}
       <StarBackground/>
       {/* Navbar */}
+      <Navbar/>
       {/* Main Content */}
       {/* Footer */}
     </div>

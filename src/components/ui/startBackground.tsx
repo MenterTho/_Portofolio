@@ -49,18 +49,18 @@ export function StarBackground() {
   };
 
   const generateMeteors = () => {
-    const numberOfMeteors = 4;
+    const numberOfMeteors = 8;
     const newMeteors: Meteor[] = [];
 
     for (let i = 0; i < numberOfMeteors; i++) {
       newMeteors.push({
         id: i,
-        size: Math.random() * 2 + 1,
-        x: Math.random() * 100,
-        y: Math.random() * 30,
+        size: Math.random() * 3 + 1,
+        x: Math.random() * 25,
+        y: Math.random() * 20 - 20,
         opacity: Math.random() * 0.5 + 0.4,
-        animationDuration: Math.random() * 3 + 4,
-        delay: `${Math.random() * 10}s`,
+        animationDuration: Math.random() * 2 + 4,
+        delay: `-${Math.random() * 10}s`,
       });
     }
 
@@ -70,12 +70,10 @@ export function StarBackground() {
   useEffect(() => {
     generateStars();
     generateMeteors();
-    const handlResize=() => {
-      generateStars();
 
-    }
-    window.addEventListener('resize', handlResize);
-    return()=>window.removeEventListener("resize",handlResize)
+    const handleResize = () => generateStars();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
