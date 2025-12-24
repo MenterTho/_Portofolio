@@ -5,8 +5,9 @@ import { Navbar } from "@/src/components/ui-navbar/navBar";
 import { StarBackground } from "@/src/components/ui/startBackground";
 import { ThemeToggle } from "@/src/components/ui/themeToggle";
 import { HeroSections } from "@/src/components/sections/heroSections"
-import { AboutSection } from "@/src/components/layout/aboutSection"
-import {SkillSection} from "@/src/components/sections/skillSections"
+import { AboutSection } from "@/src/app/(content)/about/page"
+import { SkillSection } from "@/src/components/sections/skillSections"
+import {ProjectSection} from "@/src/app/(content)/projects/page"
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -31,7 +32,8 @@ export default function Home() {
       <main>
         <HeroSections />
         <AboutSection />
-        <SkillSection/>
+        <SkillSection />
+        <ProjectSection/>
       </main>
     </div>
   );

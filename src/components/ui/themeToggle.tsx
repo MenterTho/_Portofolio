@@ -2,7 +2,6 @@
 
 import { Sun, Moon } from "lucide-react";
 import { cn } from "@/src/lib/utils";
-
 export function ThemeToggle({
   isDarkMode,
   onToggle,

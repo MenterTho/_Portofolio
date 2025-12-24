@@ -4,7 +4,6 @@ import { cn } from "@/src/lib/utils";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/src/components/ui/themeToggle";
-
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
