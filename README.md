@@ -1,78 +1,77 @@
-My Portfolio
+# My Portfolio
 
-This is a personal portfolio website built with Next.js, TypeScript, and Tailwind CSS. It showcases my skills, projects, and provides a way to contact me.
+This is my personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.  
+The website showcases my projects, technical skills, and experience as a Full-stack (Backend-oriented) Developer, and provides a simple way to get in touch.
 
-Features
-
-- Modern Tech Stack: Built with Next.js 16, React 19, and TypeScript.
-- Beautiful UI: Styled with Tailwind CSS and shadcn/ui components.
-- Smooth Animations: Animations powered by Framer Motion.
-- Language Support: Switch between English and Vietnamese.
-- Theming: Light and dark mode support.
-- Project Showcase: Sections for featured and other projects.
-- Responsive Design: Looks great on all devices.
----
-Tech Stack
-
-- Next.js - React framework for production.
-- TypeScript - Typed JavaScript at scale.
-- Tailwind CSS - A utility-first CSS framework.
-- shadcn/ui - Re-usable components built using Radix UI and Tailwind CSS.
-- Framer Motion - A production-ready motion library for React.
-- React Icons - SVG react icons of popular icon packs.
-- Next-Themes - An abstraction for themes in your Next.js app.
-
-**Project Structure** 
-
-Directory structure:
-└── mentertho-_portofolio/
-    ├── README.md
-    ├── eslint.config.mjs
-    ├── next.config.ts
-    ├── package.json
-    ├── postcss.config.mjs
-    ├── tsconfig.json
-    └── src/
-        ├── app/
-        │   ├── globals.css
-        │   ├── layout.tsx
-        │   ├── (content)/
-        │   │   ├── about/
-        │   │   │   └── page.tsx
-        │   │   ├── contact/
-        │   │   │   └── page.tsx
-        │   │   └── projects/
-        │   │       ├── page.tsx
-        │   │       └── [id]/
-        │   │           └── page.tsx
-        │   └── (landing)/
-        │       └── page.tsx
-        ├── components/
-        │   ├── button/
-        │   │   └── backButton.tsx
-        │   ├── projects/
-        │   │   ├── projectGallery.tsx
-        │   │   ├── projectHero.tsx
-        │   │   ├── projectInfo.tsx
-        │   │   └── projectLinks.tsx
-        │   ├── sections/
-        │   │   ├── heroSections.jsx
-        │   │   └── skillSections.jsx
-        │   ├── ui/
-        │   │   ├── startBackground.tsx
-        │   │   └── themeToggle.tsx
-        │   └── ui-navbar/
-        │       └── navBar.tsx
-        ├── data/
-        │   ├── projects.ts
-        │   └── skills.ts
-        ├── hook/
-        │   └── use_toast.tsx
-        └── lib/
-            └── utils.ts
+Live Demo: 
 
 ---
-**Key Features**
+
+## Features
+
+- Modern tech stack using Next.js 16, React 19, and TypeScript
+- Clean and modern UI built with Tailwind CSS and shadcn/ui
+- Smooth and lightweight animations using Framer Motion
+- Multi-language support (English / Vietnamese)
+- Light and dark theme support
+- Project showcase with detailed project pages
+- Fully responsive design for all screen sizes
+
+---
+
+## Tech Stack
+
+### Core
+- Next.js
+- React 19
+- TypeScript
+
+### UI & UX
+- Tailwind CSS
+- shadcn/ui (Radix UI + Tailwind)
+- Framer Motion
+- Lucide Icons / React Icons
+- next-themes
+
+---
+
+## Project Structure
+
+```bash
+mentertho-portfolio/
+├── README.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── src/
+    ├── app/
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   ├── (landing)/
+    │   │   └── page.tsx
+    │   └── (content)/
+    │       ├── about/
+    │       ├── contact/
+    │       └── projects/
+    │           ├── page.tsx
+    │           └── [id]/page.tsx
+    ├── components/
+    │   ├── button/
+    │   ├── projects/
+    │   ├── sections/
+    │   ├── ui/
+    │   └── ui-navbar/
+    ├── data/
+    │   ├── projects.ts
+    │   └── skills.ts
+    ├── hook/
+    │   └── use_toast.tsx
+    └── lib/
+        └── utils.ts
+
+## Key Features
     - Responsive UI with light/dark theme support.
     - Lightweight animations using Framer Motion.
     - Toast/notification support (using `@radix-ui/react-toast`).
@@ -99,23 +98,14 @@ Directory structure:
     ```bash
     npm run dev
     ```
-
-    Open http://localhost:3000 to view the site.
-
-**Tech stack & main libraries**
-    - Next.js 16, React 19, TypeScript
-    - Tailwind CSS, PostCSS
-    - Framer Motion, Lucide/React Icons
-    - @radix-ui/react-toast, class-variance-authority, clsx, zod
-
 ---
 
-**Deployment**
+## Deployment
     - Link: 
 
 ---
 
-**Contact / Author**
+## Contact 
 
     - Email: tuantho.work@gmail.com
     - GitHub: https://github.com/MenterTho
