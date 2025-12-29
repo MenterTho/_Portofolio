@@ -191,7 +191,6 @@
       "/images/todoList/register_page.png",
       "/images/todoList/information_page.png",
       "/images/todoList/project_page.png",
-      "/images/todoList/workspace_page.png",
       "/images/todoList/task_page.png",
       "/images/todoList/detailTask_page.png",
       "/images/todoList/detailWorkspace_page.png",
