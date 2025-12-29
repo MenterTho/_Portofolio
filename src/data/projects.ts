@@ -185,15 +185,17 @@
       "React Query"
     ],
 
-    image: "/images/todolist/home_page.png",
+    image: "/images/todoList/home_page.png",
     gallery: [
-      "/images/todolist/login_page.png",
-      "/images/todolist/register_page.png",
-      "/images/todolist/information_page.png",
-      "/images/todolist/project_page.png",
-      "/images/todolist/task_page.png",
-      "/images/todolist/detailTask_page.png",
-      "/images/todolist/notification_page.png"
+      "/images/todoList/login_page.png",
+      "/images/todoList/register_page.png",
+      "/images/todoList/information_page.png",
+      "/images/todoList/project_page.png",
+      "/images/todoList/workspace_page.png",
+      "/images/todoList/task_page.png",
+      "/images/todoList/detailTask_page.png",
+      "/images/todoList/detailWorkspace_page.png",
+      "/images/todoList/notification_page.png"
     ],
 
     repo: "https://github.com/MenterTho/Todolist",
