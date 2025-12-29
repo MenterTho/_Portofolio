@@ -100,12 +100,15 @@ mentertho-portfolio/
     ```
 
 ---
-### Deployment
+
+## Deploy
+
     - Link: 
 
 ---
 
-### Contact 
+## Contact 
+ 
 
     - Email: tuantho.work@gmail.com
     - GitHub: https://github.com/MenterTho
