@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+My Portfolio
 
-## Getting Started
+This is a personal portfolio website built with Next.js, TypeScript, and Tailwind CSS. It showcases my skills, projects, and provides a way to contact me.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Modern Tech Stack: Built with Next.js 16, React 19, and TypeScript.
+- Beautiful UI: Styled with Tailwind CSS and shadcn/ui components.
+- Smooth Animations: Animations powered by Framer Motion.
+- Language Support: Switch between English and Vietnamese.
+- Theming: Light and dark mode support.
+- Project Showcase: Sections for featured and other projects.
+- Responsive Design: Looks great on all devices.
+---
+Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js - React framework for production.
+- TypeScript - Typed JavaScript at scale.
+- Tailwind CSS - A utility-first CSS framework.
+- shadcn/ui - Re-usable components built using Radix UI and Tailwind CSS.
+- Framer Motion - A production-ready motion library for React.
+- React Icons - SVG react icons of popular icon packs.
+- Next-Themes - An abstraction for themes in your Next.js app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Project Structure** 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Directory structure:
+└── mentertho-_portofolio/
+    ├── README.md
+    ├── eslint.config.mjs
+    ├── next.config.ts
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tsconfig.json
+    └── src/
+        ├── app/
+        │   ├── globals.css
+        │   ├── layout.tsx
+        │   ├── (content)/
+        │   │   ├── about/
+        │   │   │   └── page.tsx
+        │   │   ├── contact/
+        │   │   │   └── page.tsx
+        │   │   └── projects/
+        │   │       ├── page.tsx
+        │   │       └── [id]/
+        │   │           └── page.tsx
+        │   └── (landing)/
+        │       └── page.tsx
+        ├── components/
+        │   ├── button/
+        │   │   └── backButton.tsx
+        │   ├── projects/
+        │   │   ├── projectGallery.tsx
+        │   │   ├── projectHero.tsx
+        │   │   ├── projectInfo.tsx
+        │   │   └── projectLinks.tsx
+        │   ├── sections/
+        │   │   ├── heroSections.jsx
+        │   │   └── skillSections.jsx
+        │   ├── ui/
+        │   │   ├── startBackground.tsx
+        │   │   └── themeToggle.tsx
+        │   └── ui-navbar/
+        │       └── navBar.tsx
+        ├── data/
+        │   ├── projects.ts
+        │   └── skills.ts
+        ├── hook/
+        │   └── use_toast.tsx
+        └── lib/
+            └── utils.ts
 
-## Learn More
+---
+**Key Features**
+    - Responsive UI with light/dark theme support.
+    - Lightweight animations using Framer Motion.
+    - Toast/notification support (using `@radix-ui/react-toast`).
+    - Projects pages are populated from `src/data/projects.ts`.
+    - Uses Google Fonts (Geist) and Tailwind-based custom CSS utilities.
 
-To learn more about Next.js, take a look at the following resources:
+    **Highlighted Projects (summary)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    - SMART CINEMA — Cinema booking platform with AI-based recommendations. Live: https://zero-movie-fe-v2.onrender.com · Repo: https://github.com/MenterTho/Zero_Movie
+    - STEAMHUB — Modern e-commerce platform for game purchases and rentals. Live: https://steamhub.vercel.app · Repo: https://github.com/MenterTho/SteamClone
+    - REALTIME CHAT APPLICATION — Real-time chat app built with Socket.IO. Live: https://realtime-chat-oo5w.onrender.com · Repo: https://github.com/MenterTho/Realtime_chat
+    - TODO LIST — WORKSPACE MANAGEMENT SYSTEM — Task/workspace management with RBAC and realtime notifications. Live: https://todolist-lac-ten.vercel.app/ · Repo: https://github.com/MenterTho/Todolist
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    **Getting Started**
 
-## Deploy on Vercel
+    1. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    2. Run development server:
+
+    ```bash
+    npm run dev
+    ```
+
+    Open http://localhost:3000 to view the site.
+
+**Tech stack & main libraries**
+    - Next.js 16, React 19, TypeScript
+    - Tailwind CSS, PostCSS
+    - Framer Motion, Lucide/React Icons
+    - @radix-ui/react-toast, class-variance-authority, clsx, zod
+
+---
+
+**Deployment**
+    - Link: 
+
+---
+
+**Contact / Author**
+
+    - Email: tuantho.work@gmail.com
+    - GitHub: https://github.com/MenterTho
+    - LinkedIn: http://www.linkedin.com/in/tuantho
+

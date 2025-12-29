@@ -147,5 +147,57 @@
 
       repo: "https://github.com/MenterTho/Realtime_chat",
       live: "https://realtime-chat-oo5w.onrender.com"
-    }
-  ];
+    },
+    {
+    id: "todolist-workspace",
+    title: "TODO LIST — WORKSPACE MANAGEMENT SYSTEM",
+    role: "Full-stack Developer",
+    duration: "Jan 2025 – Mar 2025",
+    teamSize: "Individual project",
+
+    description:
+      "A full-stack task management system built to organize work using a Workspace – Project – Task model. The application supports team collaboration, role-based access control, real-time notifications, and drag-and-drop task management to improve productivity and workflow visibility.",
+
+    achievements: [
+      "Designed a scalable RESTful API using Node.js, Express.js, and TypeScript following modular architecture.",
+      "Implemented role-based access control (RBAC) for workspace members using JWT authentication.",
+      "Built task management features with drag-and-drop support and real-time state synchronization.",
+      "Integrated Redis for caching and request rate limiting to improve performance and security.",
+      "Implemented real-time notifications using Firebase Cloud Messaging (FCM).",
+      "Handled file uploads and media management using Multer and Cloudinary.",
+      "Wrote unit and integration tests using Jest to ensure API reliability."
+    ],
+
+    techStack: [
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "TypeORM",
+      "Redis",
+      "JWT",
+      "Firebase (FCM)",
+      "Cloudinary",
+      "Multer",
+      "Jest",
+      "Next.js",
+      "Tailwind CSS",
+      "React Query"
+    ],
+
+    image: "/images/todolist/home_page.png",
+    gallery: [
+      "/images/todolist/login_page.png",
+      "/images/todolist/register_page.png",
+      "/images/todolist/information_page.png",
+      "/images/todolist/project_page.png",
+      "/images/todolist/task_page.png",
+      "/images/todolist/detailTask_page.png",
+      "/images/todolist/notification_page.png"
+    ],
+
+    repo: "https://github.com/MenterTho/Todolist",
+    live: "https://todolist-lac-ten.vercel.app/"
+  }
+
+];

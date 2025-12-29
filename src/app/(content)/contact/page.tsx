@@ -53,7 +53,7 @@ export function ContactSection() {
           className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto"
         >
           Have a project in mind or wanna collaborate? Feel free to reach out!
-          I'm always open to discussing new ideas or opportunities.
+          Im always open to discussing new ideas or opportunities.
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -85,7 +85,7 @@ export function ContactSection() {
               <ContactItem
                 icon={<MapPin />}
                 title="Location"
-                value="Binh Thanh, Ho Chi Minh City, Vietnam"
+                value="Dang Thuy Tram, Binh Thanh, Ho Chi Minh City, Vietnam"
               />
             </div>
 
@@ -97,7 +97,7 @@ export function ContactSection() {
                   icon={<Linkedin />}
                 />
                 <SocialLink
-                  href="https://github.com/tuantho"
+                  href="https://github.com/MenterTho"
                   icon={<Github />}
                 />
               </div>
