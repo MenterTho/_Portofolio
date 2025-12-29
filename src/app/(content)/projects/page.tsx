@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { projects } from "@/src/data/projects";
 
-export function ProjectSection() {
+export default function ProjectSection() {
   const router = useRouter();
 
   return (

@@ -10,7 +10,7 @@ const fadeUp = {
   show: { opacity: 1, y: 0 },
 };
 
-export function ContactSection() {
+export default function ContactSection() {
   const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

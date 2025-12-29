@@ -2,7 +2,7 @@
 
 import { skills } from "@/src/data/skills";
 
-export function SkillSection() {
+export default function SkillSection() {
   return (
     <section
       id="skills"

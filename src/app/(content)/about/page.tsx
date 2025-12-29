@@ -1,6 +1,6 @@
 "use client";
 import { Briefcase, Code, User } from "lucide-react";
-export function AboutSection() {
+export default function AboutSection() {
   return (
     <section id="about" className="py-24 px-4 relative bg-gradient-to-b from-background to-muted/20"> 
       <div className="container mx-auto max-w-5xl">
