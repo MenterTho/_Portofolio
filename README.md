@@ -98,14 +98,14 @@ mentertho-portfolio/
     ```bash
     npm run dev
     ```
----
 
-## Deployment
+---
+### Deployment
     - Link: 
 
 ---
 
-## Contact 
+### Contact 
 
     - Email: tuantho.work@gmail.com
     - GitHub: https://github.com/MenterTho
