@@ -37,41 +37,41 @@ Live Demo:
 
 ## Project Structure
 
-```bash
-mentertho-portfolio/
-├── README.md
-├── eslint.config.mjs
-├── next.config.ts
-├── package.json
-├── postcss.config.mjs
-├── tsconfig.json
-└── src/
-    ├── app/
-    │   ├── globals.css
-    │   ├── layout.tsx
-    │   ├── (landing)/
-    │   │   └── page.tsx
-    │   └── (content)/
-    │       ├── about/
-    │       ├── contact/
-    │       └── projects/
-    │           ├── page.tsx
-    │           └── [id]/page.tsx
-    ├── components/
-    │   ├── button/
-    │   ├── projects/
-    │   ├── sections/
-    │   ├── ui/
-    │   └── ui-navbar/
-    ├── data/
-    │   ├── projects.ts
-    │   └── skills.ts
-    ├── hook/
-    │   └── use_toast.tsx
-    └── lib/
-        └── utils.ts
+    ```bash
+    mentertho-portfolio/
+    ├── README.md
+    ├── eslint.config.mjs
+    ├── next.config.ts
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tsconfig.json
+    └── src/
+        ├── app/
+        │   ├── globals.css
+        │   ├── layout.tsx
+        │   ├── (landing)/
+        │   │   └── page.tsx
+        │   └── (content)/
+        │       ├── about/
+        │       ├── contact/
+        │       └── projects/
+        │           ├── page.tsx
+        │           └── [id]/page.tsx
+        ├── components/
+        │   ├── button/
+        │   ├── projects/
+        │   ├── sections/
+        │   ├── ui/
+        │   └── ui-navbar/
+        ├── data/
+        │   ├── projects.ts
+        │   └── skills.ts
+        ├── hook/
+        │   └── use_toast.tsx
+        └── lib/
+            └── utils.ts
 
-## Key Features
+**Key Features**
     - Responsive UI with light/dark theme support.
     - Lightweight animations using Framer Motion.
     - Toast/notification support (using `@radix-ui/react-toast`).
@@ -98,12 +98,11 @@ mentertho-portfolio/
     ```bash
     npm run dev
     ```
-
 ---
 
-## Deploy
+## Project Structure
 
-    - Link: 
+    - Link: https://portofolio-six-kohl-99.vercel.app
 
 ---
 
