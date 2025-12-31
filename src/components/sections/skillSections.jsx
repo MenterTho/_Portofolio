@@ -34,7 +34,6 @@ export default function SkillSection() {
                 hover:-translate-y-1
               "
             >
-              {/* 🌫 Ambient glow – luôn bật */}
               <div
                 className="
                   pointer-events-none absolute -inset-[2px] rounded-xl
