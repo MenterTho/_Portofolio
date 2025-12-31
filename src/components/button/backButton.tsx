@@ -8,7 +8,7 @@ export default function BackButton() {
 
   return (
     <button
-      onClick={() => router.back()}
+      onClick={() => router.push('/#projects')}  
       className="
         inline-flex items-center gap-2
         text-sm font-medium
